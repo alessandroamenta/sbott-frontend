@@ -1,0 +1,27 @@
+.sidebar-main {
+  .ant-layout-sider {
+    &-children {
+      display: flex;
+      flex-direction: column;
+      .ant-menu {
+        &-item {
+          &-selected {
+            border: 1px solid $squid-ink;
+            background-color: $secondary !important;
+            svg {
+              path {
+                stroke: $light-orange;
+              }
+            }
+            span {
+              color: $light-orange;
+            }
+          }
+        }
+        &-title-content {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}

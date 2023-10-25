@@ -1,0 +1,108 @@
+// client page
+.client-data-table {
+  height: calc(100% - 48px);
+  .ant-spin {
+    &-nested-loading {
+      height: 100%;
+    }
+    &-container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .ant-table {
+    background-color: $primary;
+    border-radius: 12px;
+    overflow: auto;
+    &-thead {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      th {
+        background-color: $secondary;
+        border: none;
+        padding: 8px 11px 9px;
+        font-weight: 700;
+        line-height: 32px;
+        white-space: nowrap;
+        &::before {
+          display: none;
+        }
+        &:first-child {
+          border-radius: 12px 0 0 0;
+        }
+        &:last-child {
+          border-radius: 0 12px 0 0;
+          text-align: center;
+        }
+      }
+    }
+    &-tbody {
+      tr {
+        &:hover {
+          td {
+            background-color: transparent;
+          }
+        }
+        &:last-child {
+          td {
+            border: none;
+          }
+        }
+        td {
+          padding: 9px 11px 14px;
+          border-bottom: 2px solid $secondary;
+          a {
+            .editicons {
+              margin: auto;
+            }
+          }
+          .ant-switch {
+            background-color: $dark-black;
+            height: 24px;
+            width: 50px;
+            &-handle {
+              top: 3px;
+            }
+            &-checked {
+              background-color: $aspara-gus;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ant-pagination {
+    .ant-pagination-item-link {
+      background-color: $eerie-black;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+    }
+    &-item {
+      background-color: $white-grey;
+      border: none;
+      border-radius: 10px;
+      &-active {
+        background: linear-gradient(93deg, $bown-sand 2.98%, $camel-red 97.22%);
+        a {
+          color: white !important;
+        }
+      }
+      a {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: "Inter", sans-serif;
+        color: $dark-charcoal;
+      }
+    }
+  }
+}
+
+// edit modal
+.edit-modal {
+  .ant-form-item {
+    margin: 0;
+  }
+}

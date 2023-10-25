@@ -1,0 +1,61 @@
+.botsetup-tab {
+  .ant-tabs {
+    &-nav {
+      background-color: $secondary;
+      border-radius: 12px 12px 0 0;
+      margin: 0 !important;
+    }
+    &-tab {
+      padding: 8px 24px;
+      margin: 0;
+      &-active {
+        .ant-tabs-tab-btn {
+          color: white !important;
+        }
+      }
+      &-btn {
+        line-height: 32px;
+        color: $steel-blue !important;
+        font-size: 16px;
+        font-weight: 500;
+        max-width: 89px;
+        min-width: 89px;
+      }
+    }
+    &-ink-bar {
+      background-color: $light-orange;
+    }
+    &-content-holder {
+      overflow: auto;
+      .bot-setup {
+        padding: 21px 17px 21px 20px;
+
+        @media (max-width: 639px) {
+          padding: 16px;
+        }
+        .ant-select {
+          &-selector {
+            border: none;
+            padding: 0 12px 0 16px;
+          }
+          &-selection-item {
+            line-height: 32px;
+          }
+          &-arrow {
+            svg {
+              color: white;
+            }
+          }
+        }
+        .question-input,
+        .company-details {
+          &::placeholder {
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

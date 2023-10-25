@@ -1,0 +1,15 @@
+// chart anayltics
+.chart-analytics {
+  .inbox-btn {
+    border-image: linear-gradient(to right, #f17336, #b0ddff) 1 5%;
+  }
+  .ant-select {
+    &-selector {
+      border: none !important;
+      padding: 0 !important;
+    }
+    &-selection-item {
+      font-weight: 500;
+    }
+  }
+}

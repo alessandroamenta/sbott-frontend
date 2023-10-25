@@ -1,0 +1,25 @@
+<svg width="56" height="55" viewBox="0 0 56 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="56" height="55" fill="#5B5B5B"/>
+<g id="login screen">
+<rect width="1512" height="982" transform="translate(-1160 -675)" fill="#161F26"/>
+<g id="Frame 1171275800">
+<g id="Frame 1171275799">
+<g id="Group 1171275285">
+<g id="Group 1171275284">
+<path id="Ellipse 1469" d="M28 55C43.1878 55 55.5 42.6878 55.5 27.5C55.5 12.3122 43.1878 0 28 0C12.8122 0 0.5 12.3122 0.5 27.5C0.5 42.6878 12.8122 55 28 55Z" fill="#F7F7F7"/>
+<g id="gmail 1" clip-path="url(#clip0_1_1005)">
+<path id="Vector" d="M37.3618 19.3085H19.8086V36.8617H37.3618V19.3085Z" fill="#ECEFF1"/>
+<path id="Vector_2" d="M28.5852 29.9311L37.3618 36.8617V23.179L28.5852 29.9311Z" fill="#CFD8DC"/>
+<path id="Vector_3" d="M38.0932 19.3085H37.3618L28.5852 26.2391L19.8086 19.3085H19.0772C17.866 19.3085 16.8831 20.2915 16.8831 21.5027V34.6676C16.8831 35.8787 17.866 36.8617 19.0772 36.8617H19.8086V23.179L28.5852 29.9297L37.3618 23.1775V36.8617H38.0932C39.3043 36.8617 40.2873 35.8787 40.2873 34.6676V21.5027C40.2873 20.2915 39.3043 19.3085 38.0932 19.3085Z" fill="#F44336"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_1005">
+<rect width="23.4043" height="23.4043" fill="white" transform="translate(16.8831 16.383)"/>
+</clipPath>
+</defs>
+</svg>
